@@ -289,11 +289,11 @@ class roundedblueTemplate extends QuickTemplate {
 		<div id="searchBody" class="pBody">
 			<form action="<?php $this->text('wgScript') ?>" id="searchform"><div>
 				<input type='hidden' name="title" value="<?php $this->text('searchtitle') ?>"/>
-				<input id="searchInput" name="search" type="text"<?php echo $this->skin->tooltipAndAccesskey('search');
+				<img src="skins/roundedblue/magnifyingglass.gif" alt="search" /><input id="searchInput" name="search" type="text"<?php echo $this->skin->tooltipAndAccesskey('search');
 					if( isset( $this->data['search'] ) ) {
 						?> value="<?php $this->text('search') ?>"<?php } ?> />
-				<input type='submit' name="go" class="searchButton" id="searchGoButton"	value="<?php $this->msg('searcharticle') ?>"<?php echo $this->skin->tooltipAndAccesskey( 'search-go' ); ?> /><?php if ($wgUseTwoButtonsSearchForm) { ?>&nbsp;
-				<input type='submit' name="fulltext" class="searchButton" id="mw-searchButton" value="<?php $this->msg('searchbutton') ?>"<?php echo $this->skin->tooltipAndAccesskey( 'search-fulltext' ); ?> /><?php } else { ?>
+				<input type='image' name="go" class="searchButton" id="searchGoButton"	value="<?php $this->msg('searcharticle') ?>" src="skins/roundedblue/go.gif" <?php echo $this->skin->tooltipAndAccesskey( 'search-go' ); ?> /><?php if ($wgUseTwoButtonsSearchForm) { ?>&nbsp;
+				<input type='image' name="fulltext" class="searchButton" id="mw-searchButton" value="<?php $this->msg('searchbutton') ?>" src="skins/roundedblue/search.gif" <?php echo $this->skin->tooltipAndAccesskey( 'search-fulltext' ); ?> /><?php } else { ?>
 
 				<div><a href="<?php $this->text('searchaction') ?>" rel="search"><?php $this->msg('powersearch-legend') ?></a></div><?php } ?>
 
