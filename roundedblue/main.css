@@ -46,7 +46,7 @@ http://www.opensource.org/licenses/gpl-license.php
 	
 }
 /* Links in the main content area */
-#bodyContentInnerWrapper a {
+#bodyContentInnerWrapper a, #bodyContentInnerWrapper a.external text {
 	color: #333;
 	text-decoration: none;
 	background-color: #D2DFEE;
@@ -828,7 +828,7 @@ special external link styling */
 	z-index:20;
 
 }
-#p-navigation .headfill h5 {
+#p-navigation h5 {
 	text-indent: -9999px;
     display: block;
 	height: 30px;
@@ -1062,7 +1062,7 @@ li#ca-watch, li#ca-unwatch, li#ca-varlang-0, li#ca-print {
 */
 
 /* Toolbox portlet */
-#p-tb .headfill h5 {
+#p-tb h5 {
 	text-indent: -9999px;
     display: block;
 	height: 30px;
