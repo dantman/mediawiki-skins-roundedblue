@@ -723,7 +723,7 @@ special external link styling */
 	padding: 0;
 	float: none;
 	width: 200px;
-    overflow-y: hidden; 
+    overflow: hidden; 
 }
 .portlet h4 {
 	font-size: 95%;
