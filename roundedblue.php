@@ -44,6 +44,7 @@ class Skinroundedblue extends SkinTemplate {
 		$out->addStyle( 'roundedblue/IE55Fixes.css', 'screen', 'IE 5.5000' );
 		$out->addStyle( 'roundedblue/IE60Fixes.css', 'screen', 'IE 6' );
 		$out->addStyle( 'roundedblue/IE70Fixes.css', 'screen', 'IE 7' );
+		$out->addStyle( 'roundedblue/IE80Fixes.css', 'screen', 'IE 8' );
 
 		$out->addStyle( 'roundedblue/rtl.css', 'screen', '', 'rtl' );
 	}
